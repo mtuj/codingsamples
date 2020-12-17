@@ -75,14 +75,6 @@ class OAuthManager {
     func buildOAuthQuerystringDictionary(clientQueryString: String?) -> [String : Any] {
         let appSettings = AppSettings()
         
-        // Notice there is no initialisation with the standard ? character.
-        // This is because the OAuth querystring we are creating is not a true querystring.
-        // It represents the querystring part of the url, but does not start with a ?
-        // OAuth uses unescaped & twice, to create three parts to the Authorization header:
-        // 1.  The verb
-        // 2.  The host
-        // 3.  The querystring
-        
         var oAuthQuerystringDictionary = [String : Any]()
 
         if let clientQueryString = clientQueryString {
