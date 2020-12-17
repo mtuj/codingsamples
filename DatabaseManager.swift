@@ -2,8 +2,6 @@ import Foundation
 import SQLite3
 
 class DatabaseManager {
-    // https://medium.com/@imbilalhassan/saving-data-in-sqlite-db-in-ios-using-swift-4-76b743d3ce0e
-    // https://www.raywenderlich.com/6620276-sqlite-with-swift-tutorial-getting-started
 
     init()
     {
