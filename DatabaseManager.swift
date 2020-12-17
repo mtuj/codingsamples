@@ -69,7 +69,6 @@ class DatabaseManager {
     
     func createRegisteredUser(user: User) {
         let sql = "INSERT INTO \(DatabaseDefinitions.TableRegisteredUser) (\(DatabaseDefinitions.TableRegisteredUserColumnId), \(DatabaseDefinitions.TableRegisteredUserColumnUserName)) VALUES ('\(user.Id)', '\(user.UserName)')"
-        // TODO: Abstract
         var insertStatement: OpaquePointer? = nil
         if sqlite3_prepare_v2(db, sql, -1, &insertStatement, nil) == SQLITE_OK {
             if sqlite3_step(insertStatement) == SQLITE_DONE {
