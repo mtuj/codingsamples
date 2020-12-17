@@ -85,7 +85,6 @@ class DatabaseManager {
 
     func updateRegisteredUser(user: User) {
         let sql = "UPDATE \(DatabaseDefinitions.TableRegisteredUser) SET \(DatabaseDefinitions.TableRegisteredUserColumnUserName) = '\(user.UserName)' WHERE \(DatabaseDefinitions.TableRegisteredUserColumnId) = '\(user.Id)'"
-        // TODO: Abstract
         var updateStatement: OpaquePointer? = nil
         if sqlite3_prepare_v2(db, sql, -1, &updateStatement, nil) == SQLITE_OK {
             if sqlite3_step(updateStatement) == SQLITE_DONE {
