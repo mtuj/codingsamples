@@ -8,7 +8,21 @@ Please use the **Code** > **Download ZIP** option to download this repository, w
 
 TBC
 
+## JIRA Tasks
+
+TBC
+
 # C#.Net
+
+### Business Logic
+
+TBC
+
+### Integration Tests
+
+TBC
+
+### ORM Mapping
 
 TBC
 
