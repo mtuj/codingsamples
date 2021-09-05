@@ -52,7 +52,7 @@ TestSessionServices.cs
 
 ### Integration Tests
 
-*A sample of integration tests I have written for testing several elements of the core API. These are unit tests, but as well as testing the core functionality they also verify the persisted data, as most of the processes I work on have a key reliance on verified data integrity.*
+*A sample of integration tests I have written for testing several elements of the core API. These are similar to unit tests, but as well as testing the core functionality they also verify the persisted data, as most of the processes I work on have a key reliance on verified data integrity.*
 
 DocumentNHibernateRawTests.cs
 * A suite of integration tests for verifying the core functionality of the NHibernate ORM, specifically relating to Document data and Blob storage.
