@@ -32,7 +32,7 @@ JIRA task - VIS-4056 - Integration tests.pdf
 * A task for a developer to write a series of integration tests. This is for a developer who is a little more familiar with how unit testing works, so does not provide as much guidance on the basics as the previous task; however it does provide the required detail on the data and logic-specific elements of the process that is being tested.
 
 JIRA task - VIS-4057 - System test.pdf
-* TBC
+* A task to guide a developer through a manual testing run of new functionality. This may be required when the assignee has completed some business logic changes and associated unit testing, but may not be as familiar with how the full system will be affected in context, so tasks like this can sometimes be worded more in the form of a user guide than an outright technical task.
 
 # C#.Net
 
