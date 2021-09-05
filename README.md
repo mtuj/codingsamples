@@ -45,7 +45,7 @@ SiteTimeLogServices.cs
 * An API application service class providing methods specific to time log data logged by site engineers (synced to the system from an iOS app via a REST-based web service). The key method is GetConsolidatedSiteTimeLogs which is used to construct complete site time logs on-the-fly from disconnected start and end logs; these complete time log entities are then used by other methods in the same class, such as GenerateSiteHoursSummary which is used to process the records and return an overall summary of time sheet data, based on which hours fall within certain pre-set periods related to different HR pay levels (such as double time and 1.5 time).
 
 TestSessionServices.cs
-* TBC
+* An API application service class used to process submitted data relating to electronic test certificates. This class includes a number of file system operations (so calls the FileSystemServices class detailed above). The data payload typically includes PDF documents (synced from iOS apps as base 64-encoded strings), so this class includes code for interrogating and modifying the data contained within the submitted PDF document.
 
 ### Integration Tests
 
