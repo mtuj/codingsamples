@@ -7,7 +7,7 @@ Please use the **Code** > **Download ZIP** option to download this repository, w
 # Documentation
 
 Project System Requirements document.docx
-* A functional specification I wrote for a large-scale project covering several modules in an in-house ERP system. This was a project I also implemented and wrote the code for; if this had been distributed to other developers to work on, an additional technical specification would also been produced alongside this document.
+* A functional specification I wrote for a large-scale project covering several modules in an in-house ERP system. This was a project I also implemented and wrote the code for; had this been distributed to other developers to work on instead, an additional technical specification would also been produced alongside this document.
 
 iOS Engineer App User Guide.pdf
 * A user guide I produced for an in-house iOS app that I wrote. The app is used primarily by site-based engineers for logging site visits, updating details of installed equipment, completing electronic testing documentation, and submitting time logs. I have also produced similar guides for four other in-house apps.
@@ -20,10 +20,10 @@ iOS app development summary.pdf
 *A sample of the detail sections of some JIRA tasks I have written while mentoring junior developers.*
 
 JIRA task - VIS-3180 - Core coding task.pdf
-* TBC
+* A task I wrote for a developer to add create and update domain model objects, including ORM mappings to related database tables.
 
 JIRA task - VIS-3435 - Code refactor (With code review feedback).pdf
-* TBC
+* A task for a developer to refactor a collection of "building block" helper methods in a business logic class, in preparation for usage elsewhere in the system. This task was one part of a large project, so this requirement was one small element in a much wider structured system architecture plan. (Typically my role involves scoping out the full technical architecture at a high level, then breaking tasks down in manageable portions for a developer.) This task also includes some typical code review feedback I am usually required to provide back to the task assignee.
 
 JIRA task - VIS-3498 - Integration test.pdf
 * TBC
