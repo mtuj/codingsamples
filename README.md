@@ -87,8 +87,41 @@ Data import script.sql
 
 # iOS
 
-TBC
+### Objective-C
+
+AppDelegate.m
+* TBC
+
+ApiManager.m
+* TBC
+
+DatabaseManager.m
+* TBC
+
+OAuthManager.m
+* TBC
+
+TestSessionDetailsViewController.m
+* TBC
+
+### Swift
+
+OAuthManager.swift
+* TBC
+
+User.swift
+* TBC
+
+UserTests.swift
+* TBC
+
+ProfilesViewController.swift
+* TBC
+
+ProfileTableViewCell.swift
+* TBC
 
 # Classic ASP
 
-TBC
+outlet-configuration.asp
+* TBC
