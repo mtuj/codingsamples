@@ -29,7 +29,7 @@ JIRA task - VIS-3498 - Integration test.pdf
 * A task for a developer to write an integration test to verify a specific area of functionality. For this task detail I used a standard template that includes wider guidance on test driven development in general, as well as some of the more specific system features. The developer is provided with suggested parameters for the key business logic method call, as well as expected outputs; they are expected to write the test first, then implement the logic to satisfy the requirements.
 
 JIRA task - VIS-4056 - Integration tests.pdf
-* TBC
+* A task for a developer to write a series of integration tests. This is for a developer who is a little more familiar with how unit testing works, so does not provide as much guidance on the basics as the previous task; however it does provide the required detail on the data and logic-specific elements of the process that is being tested.
 
 JIRA task - VIS-4057 - System test.pdf
 * TBC
