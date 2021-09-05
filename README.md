@@ -39,10 +39,10 @@ JIRA task - VIS-4057 - System test.pdf
 ### Business Logic
 
 FileSystemServices.cs
-* An application service class providing a number of common reusable helper methods, related specifically to file system operations. Note that this class makes use of **dependency injection** to provide access to other similar classes (in this case, EmailServices). Dependency injection is accomplished by passing an associated interface that the consumable service implements (e.g. IEmailServices) as a parameter into the constructor; a similar chaining of dependencies is then also performed in any consumed services, meaning that they can be made available for use, with all dependencies instantly resolved, simply and quickly.
+* An API application service class providing a number of common reusable helper methods, related specifically to file system operations. Note that this class makes use of **dependency injection** to provide access to other similar classes (in this case, EmailServices). Dependency injection is accomplished by passing an associated interface that the consumed service implements (e.g. IEmailServices) as a parameter into the constructor of the consuming class; a similar chaining of dependencies is then also performed in the constructors of any consumed services, meaning that they can be made available for use - with all dependencies instantly resolved - simply and quickly.
 
 SiteTimeLogServices.cs
-* TBC
+* An API application service class providing methods specific to time log data logged by site engineers (synced to the system from an iOS app via a REST-based web service). The key method is GetConsolidatedSiteTimeLogs which is used to construct complete site time logs on-the-fly from disconnected start and end logs; these complete time log entities are then used by other methods in the same class, such as GenerateSiteHoursSummary which is used to process the records and return an overall summary of time sheet data, based on which hours fall within certain pre-set periods related to different HR pay levels (such as double time and 1.5 time).
 
 TestSessionServices.cs
 * TBC
