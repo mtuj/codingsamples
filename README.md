@@ -106,29 +106,29 @@ DatabaseManager.m
 * A common helper class used to handle database CRUD operations. Most iOS apps I have worked on include local Sqlite database to faciliate offline working, so this is a typical file that I would include in any such app. This class makes use of a third-party library called FMDB for Sqlite read and write operations; the methods generally have a similar format throughout the file as they deal with similar operations, but on different database tables. The convention is that data dictionary and/or array objects are passed to and from the methods, with the methods then taking care of any data retrieval and persistence functionality.
 
 OAuthManager.m
-* TBC
+* A common helper class used to generate the authorisation headers required by the OAuth protocol, which the iOS app and API both conform to.
 
 TestSessionDetailsViewController.m
-* TBC
+* A view controller class used for handling data related to electronic test documentation. Test documents are displayed and edited within the app, then upon committing changes the PDF form data is captured and processed within this file. As such this is a particularly detailed controller class, with a number of handler methods dedicated to the processing of data specific to known documents, test numbers, and test types.
 
 ### Swift
 
 *A sample of iOS code I have written using the Swift language. Although most of the production apps I have written are in Objective-C, I have been working on converting these to Swift as a personal project.*
 
 OAuthManager.swift
-* TBC
+* A common helper class used to generate the authorisation headers required by the OAuth protocol, which the iOS app and API both conform to.
 
 User.swift
-* TBC
+* A standard model class, which I am implementing in the Swift version of the apps to replace the previous convention of utilising data dictionaries to represent domain objects.
 
 UserTests.swift
-* TBC
+* A set of unit tests relating to a particular model class.
 
 ProfilesViewController.swift
-* TBC
+* A view controller I wrote for a demo app, designed to display data relating to account profiles in a scrolling table view.
 
 ProfileTableViewCell.swift
-* TBC
+* A class for generating a custom table view cell, used by the ProfilesViewController class described above.
 
 # Classic ASP
 
