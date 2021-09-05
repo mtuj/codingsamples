@@ -55,7 +55,7 @@ DocumentNHibernateRawTests.cs
 * A suite of integration tests for verifying the core functionality of the NHibernate ORM, specifically relating to Document data and Blob storage.
 
 UpdateTestSessionTests.cs
-* TBC
+* A suite of integration tests for testing the updating of Test Session data (electronic test documentation) by the TestSessionServices class. This is a particularly detailed and complex set of tests as the data in question is of a critical nature, and system operation has to be reliably verifiable following any key system updates. Note that this class relates just to the updating of electronic test documentation data; similar separate suites of tests have also been written to handle creation and retrieval of data, with further classes also written for testing other related data sets.
 
 CreateProductionJobTests.cs
 * TBC
