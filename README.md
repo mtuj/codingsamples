@@ -94,11 +94,13 @@ Data import script.sql
 
 ### Objective-C
 
+*A sample of iOS code I have written using the Objective-C language. I have been programming iOS apps using this language for many years, and have produced a number of in-house production apps to date.*
+
 AppDelegate.m
-* TBC
+* The delegate class that responds to key system and app events, such as launch complete, device entering sleep mode, memory warning detected, and so on.
 
 ApiManager.m
-* TBC
+* A common helper class used to handle API operations, including sending data and processing payloads received. This class typically contains first-stage handling of errors and unsuccessful status codes.
 
 DatabaseManager.m
 * TBC
@@ -110,6 +112,8 @@ TestSessionDetailsViewController.m
 * TBC
 
 ### Swift
+
+*A sample of iOS code I have written using the Swift language. Although most of the production apps I have written are in Objective-C, I have been working on converting these to Swift as a personal project.*
 
 OAuthManager.swift
 * TBC
