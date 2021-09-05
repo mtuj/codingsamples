@@ -76,13 +76,13 @@ cleartobuild.js
 # SQL
 
 Schema update script.sql
-* TBC
+* A standard script written to perform a schema update of the core SQL database upon release of a specific new version.
 
 Data update script.sql
-* TBC
+* A standard script written to perform a data update of the core SQL database upon release of a specific new version. Typically this will be run just after a related schema update.
 
 Data manipulation script.sql
-* TBC
+* A one-off script I was asked to write to target and manipulate data logged by an in-house iOS time logging app. The requirement here was to split out and redistribute blocks of logged time to different time slots, but without overlapping any existing populated time log periods for each affected employee.
 
 Data import script.sql
 * TBC
