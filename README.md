@@ -39,7 +39,7 @@ JIRA task - VIS-4057 - System test.pdf
 ### Business Logic
 
 FileSystemServices.cs
-* TBC
+* An application service class providing a number of common reusable helper methods, related specifically to file system operations. Note that this class makes use of **dependency injection** to provide access to other similar classes (in this case, EmailServices). Dependency injection is accomplished by passing an associated interface that the consumable service implements (e.g. IEmailServices) as a parameter into the constructor; a similar chaining of dependencies is then also performed in any consumed services, meaning that they can be made available for use, with all dependencies instantly resolved, simply and quickly.
 
 SiteTimeLogServices.cs
 * TBC
