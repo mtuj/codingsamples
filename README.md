@@ -68,10 +68,10 @@ WorksOrderMapping.cs
 # JavaScript
 
 uploader.js
-* TBC
+* A JavaScript file I wrote utilising the BackBone MVC framework, for providing front-end functionality for an in-house multi-file uploader screen. Backbone scripts typically work in tandem with an associated CSHTML file that contains view template elements, which are rendered using data provided by the JavaScript component. Unlike the files detailed above, this set of classes typically lives within a separate UI solution, and consumes / updates data via an associated REST API.
 
 cleartobuild.js
-* TBC
+* A JavaScript file I wrote utilising the Telerik KendoUI MVVM framework. This is also a UI solution file, and is used to display data relating to stock and procurement, and used to display the percentage of ordered parts that have been received for specific production lines in a factory. Most JavaScript work I now undertake is in KendoUI, and again relies on a related CSHTML template definition file.
 
 # SQL
 
