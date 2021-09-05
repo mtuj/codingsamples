@@ -19,6 +19,20 @@ iOS app development summary.pdf
 
 *A sample of the detail sections of some JIRA tasks I have written while mentoring junior developers.*
 
+JIRA task - VIS-3180 - Core coding task.pdf
+* TBC
+
+JIRA task - VIS-3435 - Code refactor (With code review feedback).pdf
+* TBC
+
+JIRA task - VIS-3498 - Integration test.pdf
+* TBC
+
+JIRA task - VIS-4056 - Integration tests.pdf
+* TBC
+
+JIRA task - VIS-4057 - System test.pdf
+* TBC
 
 # C#.Net
 
