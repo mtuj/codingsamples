@@ -103,7 +103,7 @@ ApiManager.m
 * A common helper class used to handle API operations, including sending data and processing payloads received. This class typically contains first-stage handling of errors and unsuccessful status codes.
 
 DatabaseManager.m
-* TBC
+* A common helper class used to handle database CRUD operations. Most iOS apps I have worked on include local Sqlite database to faciliate offline working, so this is a typical file that I would include in any such app. This class makes use of a third-party library called FMDB for Sqlite read and write operations; the methods generally have a similar format throughout the file as they deal with similar operations, but on different database tables. The convention is that data dictionary and/or array objects are passed to and from the methods, with the methods then taking care of any data retrieval and persistence functionality.
 
 OAuthManager.m
 * TBC
