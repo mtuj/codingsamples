@@ -6,11 +6,19 @@ Please use the **Code** > **Download ZIP** option to download this repository, w
 
 # Documentation
 
-TBC
+Project System Requirements document.docx
+* TBC
 
-## JIRA Tasks
+iOS Engineer App User Guide.pdf
+* TBC
 
-TBC
+iOS app development summary.pdf
+* TBC
+
+### JIRA Tasks
+
+*A sample of the detail sections of some JIRA tasks I have written while mentoring junior developers.*
+
 
 # C#.Net
 
