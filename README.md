@@ -23,7 +23,7 @@ iOS app development summary.pdf
 *A sample of the detail sections of some JIRA tasks I have written while mentoring junior developers.*
 
 JIRA task - VIS-3180 - Core coding task.pdf
-* A task I wrote for a developer to add create and update domain model objects, including ORM mappings to related database tables.
+* A task I wrote for a developer to create and update domain model objects, including ORM mappings to related database tables.
 
 JIRA task - VIS-3435 - Code refactor (With code review feedback).pdf
 * A task for a developer to refactor a collection of "building block" helper methods in a business logic class, in preparation for usage elsewhere in the system. This task was one small part of a large project, so this requirement was one element in a much wider structured system architecture plan. (Typically my role involves scoping out the full technical architecture at a high level, then breaking tasks down in manageable portions for a developer.) This task also includes some typical code review feedback I am usually required to provide back to the assignee.
