@@ -23,10 +23,10 @@ JIRA task - VIS-3180 - Core coding task.pdf
 * A task I wrote for a developer to add create and update domain model objects, including ORM mappings to related database tables.
 
 JIRA task - VIS-3435 - Code refactor (With code review feedback).pdf
-* A task for a developer to refactor a collection of "building block" helper methods in a business logic class, in preparation for usage elsewhere in the system. This task was one part of a large project, so this requirement was one small element in a much wider structured system architecture plan. (Typically my role involves scoping out the full technical architecture at a high level, then breaking tasks down in manageable portions for a developer.) This task also includes some typical code review feedback I am usually required to provide back to the task assignee.
+* A task for a developer to refactor a collection of "building block" helper methods in a business logic class, in preparation for usage elsewhere in the system. This task was one small part of a large project, so this requirement was one element in a much wider structured system architecture plan. (Typically my role involves scoping out the full technical architecture at a high level, then breaking tasks down in manageable portions for a developer.) This task also includes some typical code review feedback I am usually required to provide back to the assignee.
 
 JIRA task - VIS-3498 - Integration test.pdf
-* TBC
+* A task for a developer to write an integration test to verify a specific area of functionality. For this task detail I used a standard template that includes wider guidance on test driven development in general, as well as some of the more specific system features. The developer is provided with suggested parameters for the key business logic method call, as well as expected outputs; they are expected to write the test first, then implement the logic to satisfy the requirements.
 
 JIRA task - VIS-4056 - Integration tests.pdf
 * TBC
