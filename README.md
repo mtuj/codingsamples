@@ -88,7 +88,7 @@ Data manipulation script.sql
 * A one-off script I was asked to write to target and manipulate data logged by an in-house iOS time logging app. The requirement here was to split out and redistribute blocks of logged time to different time slots, but without overlapping any existing populated time log periods for each affected employee.
 
 Data import script.sql
-* A script I wrote to parse data from an Excel spreadsheet, convert to the correct data types, and consolidate to existing data stored within the central SQL database. I have often been required to write similar import routines, all of which tend to use the same OLE DB provider functionality to harvest the raw data, before employing custom scripts to then manipulate the imported data as required.
+* A script I wrote to parse data from an Excel spreadsheet, convert to the correct data types, and consolidate to existing data stored within the central SQL database. I have often been required to write similar import routines, all of which tend to use the same OLE DB provider functionality to harvest the raw data, before employing custom scripts to then manipulate the parsed data as required.
 
 # iOS
 
