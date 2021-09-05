@@ -133,4 +133,4 @@ ProfileTableViewCell.swift
 # Classic ASP
 
 outlet-configuration.asp
-* TBC
+* A class written for an older legacy Classic ASP system. This consists of an HTML page with a number of dynamic elements generated from VBScript variables. SQL read and write statements are performed within the page, with the scripts (by convention) contained within the main body of the code.
