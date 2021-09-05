@@ -7,13 +7,13 @@ Please use the **Code** > **Download ZIP** option to download this repository, w
 # Documentation
 
 Project System Requirements document.docx
-* TBC
+* A functional specification I wrote for a large-scale project covering several modules in an in-house ERP system. This was a project I also implemented and wrote the code for; if this had been distributed to other developers to work on, an additional technical specification would also been produced alongside this document.
 
 iOS Engineer App User Guide.pdf
-* TBC
+* A user guide I produced for an in-house iOS app that I wrote. The app is used primarily by site-based engineers for logging site visits, updating details of installed equipment, completing electronic testing documentation, and submitting time logs. I have also produced similar guides for four other in-house apps.
 
 iOS app development summary.pdf
-* TBC
+* A brief summary covering the in-house iOS apps I have written, including screenshots of some of the key screens.
 
 ### JIRA Tasks
 
